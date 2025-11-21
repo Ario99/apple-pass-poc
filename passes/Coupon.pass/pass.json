@@ -1,0 +1,54 @@
+{
+  "formatVersion" : 1,
+  "passTypeIdentifier" : "pass.com.sensordynamix.temp-passes.12345",
+  "serialNumber" : "12345",
+  "teamIdentifier": "2F84HD3LCM",
+  "webServiceURL" : "https://example.com/passes/",
+  "authenticationToken" : "vxwxd7J8AlNNFPS8k0a0FfUFtq0ewzFdc",
+  "barcode" : {
+    "message" : "123456789",
+    "format" : "PKBarcodeFormatQR",
+    "messageEncoding" : "iso-8859-1"
+  },
+  "locations" : [
+    {
+      "longitude" : -122.3748889,
+      "latitude" : 37.6189722
+    },
+    {
+      "longitude" : -122.03118,
+      "latitude" : 37.33182
+    }
+  ],
+  "organizationName" : "Paw Planet",
+  "description" : "Paw Planet Coupon",
+  "foregroundColor" : "rgb(255, 255, 255)",
+  "backgroundColor" : "rgb(76, 160, 179)",
+  "coupon" : {
+      "headerFields": [
+          {
+              "key": "header",
+              "value": "Access card"
+          }
+      ],
+      "secondaryFields" : [
+          {
+              "key" : "balance",
+              "label" : "remaining balance",
+              "value" : 21.75,
+              "currencyCode" : "USD",
+          },
+          {
+              "key" : "account holder",
+              "label" : "account",
+              "value" : "John James",
+              "textAlignment": "PKTextAlignmentRight"
+          },
+          {
+              "key": "test",
+              "label": "Test",
+              "value": "TestVal"
+          }
+      ]
+  },
+}

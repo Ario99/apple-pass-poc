@@ -1,0 +1,52 @@
+{
+  "formatVersion" : 1,
+  "passTypeIdentifier" : "pass.com.sensordynamix.temp-passes.12345",
+  "serialNumber" : "12345",
+  "teamIdentifier" : "2F84HD3LCM",
+  "webServiceURL" : "https://example.com/passes/",
+  "authenticationToken" : "vxwxd7J8AlNNFPS8k0a0FfUFtq0ewzFdc",
+  "locations" : [
+    {
+      "longitude" : -122.3748889,
+      "latitude" : 37.6189722
+    }
+  ],
+  "barcode" : {
+    "message" : "Afa////fw7FAAAF2%8CPGSYSF66CBC9A1EA904E53EDE51125D33F 0HYnnhiVG",
+    "format" : "PKBarcodeFormatQR",
+    "messageEncoding" : "iso-8859-1"
+  },
+  "organizationName" : "Organic Produce",
+  "description" : "Organic Produce Loyalty Card",
+  "foregroundColor" : "rgb(0, 0, 128)",
+  "backgroundColor" : "rgb(181, 190, 53)",
+  "labelColor": "rgb(100, 100, 100)",
+  "suppressStripShine": true,
+  "storeCard" : {
+      "headerFields": [
+          {
+              "key": "header",
+              "value": "Access card"
+          }
+      ],
+      "secondaryFields" : [
+          {
+              "key" : "balance",
+              "label" : "remaining balance",
+              "value" : 21.75,
+              "currencyCode" : "USD",
+          },
+          {
+              "key" : "account holder",
+              "label" : "account",
+              "value" : "John James",
+              "textAlignment": "PKTextAlignmentRight"
+          }
+      ]
+  },
+  "personalize": {
+      "description": "Sample text description",
+      "requiredPersonalization": ["PKPassPersonalizationFieldName", "PKPassPersonalizationFieldPostalCode", "PKPassPersonalizationFieldEmailAddress", "PKPassPersonalizationFieldPhoneNumber"],
+      
+  }
+}

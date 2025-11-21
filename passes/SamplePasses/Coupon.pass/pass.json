@@ -1,0 +1,13 @@
+{
+  "formatVersion" : 1,
+  "passTypeIdentifier" : "pass.com.sensordynamix.temp-passes.12345",
+  "serialNumber" : "12345",
+  "teamIdentifier": "2F84HD3LCM",
+  "barcode" : {
+    "message" : "123456789",
+    "format" : "PKBarcodeFormatPDF417",
+    "messageEncoding" : "iso-8859-1"
+  },
+  "organizationName" : "Paw Planet",
+  "description" : "Paw Planet Coupon",
+}

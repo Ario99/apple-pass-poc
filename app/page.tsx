@@ -61,7 +61,7 @@ export default function Home() {
 					</a>
 				</div>
 				<a
-               href="file.svg"
+               href="pass.pkpass"
                download="pass.pkpass"
                target="_blank"
                rel="noreferrer"

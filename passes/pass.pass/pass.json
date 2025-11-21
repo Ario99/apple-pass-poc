@@ -1,0 +1,85 @@
+{
+    "formatVersion": 1,
+    "serialNumber": "12345",
+    "organizationName": "Sensor Dynamix",
+    "passTypeIdentifier" : "pass.com.sensordynamix.temp-passes.12345",
+    "teamIdentifier": "2F84HD3LCM",
+    "description": "Proof of concept for pass creation and distribution",
+    "barcodes": [
+        {
+            "format": "PKBarcodeFormatQR",
+            "message": "Hello World!",
+            "messageEncoding": "iso-8859-1"
+        }
+    ],
+    "foregroundColor" : "rgb(100, 100, 100)",
+    "backgroundColor" : "rgb(181, 190, 53)",
+    "generic" : {
+      "primaryFields" : [
+        {
+          "key" : "member",
+          "value" : "Johnny Appleseed",
+        }
+      ],
+      "secondaryFields" : [
+        {
+          "key" : "subtitle",
+          "label" : "MEMBER SINCE",
+          "value" : "2012"
+        }
+      ],
+      "auxiliaryFields" : [
+        {
+          "key" : "level",
+          "label" : "LEVEL",
+          "value" : "Platinum"
+        },
+        {
+          "key" : "favorite",
+          "label" : "FAVORITE TOY",
+          "value" : "Bucky Ball Magnets",
+          "textAlignment" : "PKTextAlignmentRight"
+        }
+      ],
+      "backFields" : [
+        {
+          "numberStyle" : "PKNumberStyleSpellOut",
+          "label" : "spelled out",
+          "key" : "numberStyle",
+          "value" : 200
+        },
+        {
+          "label" : "in Reals",
+          "key" : "currency",
+          "value" : 200,
+          "currencyCode" : "BRL"
+        },
+        {
+          "dateStyle" : "PKDateStyleFull",
+          "label" : "full date",
+          "key" : "dateFull",
+          "value" : "1980-05-07T10:00-05:00"
+        },
+        {
+          "label" : "full time",
+          "key" : "timeFull",
+          "value" : "1980-05-07T10:00-05:00",
+          "timeStyle" : "PKDateStyleFull"
+        },
+        {
+          "dateStyle" : "PKDateStyleShort",
+          "label" : "short date and time",
+          "key" : "dateTime",
+          "value" : "1980-05-07T10:00-05:00",
+          "timeStyle" : "PKDateStyleShort"
+        },
+        {
+          "dateStyle" : "PKDateStyleShort",
+          "label" : "relative date",
+          "key" : "relStyle",
+          "value" : "2013-04-24T10:00-05:00",
+          "isRelative" : true
+        }
+      ]
+    }
+}
